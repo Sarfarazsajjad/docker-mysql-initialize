@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  db:
+    build:
+      context: ./db
+    ports:
+      - 3306:3306
